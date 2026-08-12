@@ -2,7 +2,7 @@
 #include <string>
 #include <iostream>
 inline namespace sort {
-    // Defining a node this will be used throughout it
+    // Defining a node !- this will be used throughout the namespace
     class Node
     {
         public:
@@ -72,6 +72,10 @@ inline namespace sort {
                 std::cout << tempnode->m_value << "  " << tempnode->m_next << std::endl;
                 tempnode = tempnode->m_next;
             }
+        }
+        void RemoveNode(){
+
+            ;
         }
     
 
